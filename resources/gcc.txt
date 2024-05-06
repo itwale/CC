@@ -1,0 +1,19 @@
+gcc --version
+sudo apt install build-essential
+apt-get update
+
+touch temp.cpp
+nano temp.cpp
+
+#include <iostream>
+using namespace std;
+
+int main(){
+cout<<"Hello World"<<endl;
+return 0;
+}
+
+(ctr+X Y Enter)
+
+g++ temp.cpp
+./a.out
