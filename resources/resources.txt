@@ -5,7 +5,7 @@ ifconfig -----both
 sudo apt install openssh-server   -----both
 touch new.txt
 nano new.txt   (ctr+x Y enter)
-scp new.txt vagrant@ipadd:/vagrant/home
+scp new.txt vagrant@ipadd:/home/vagrant
 passward
 
 vm2
