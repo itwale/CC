@@ -1,0 +1,3 @@
+cd desktop
+scp file.txt vagrant@ipadd:/home/vagrant
+
