@@ -1,1 +1,13 @@
 https://rb.gy/2ntsbh
+
+vm1:
+ifconfig -----both
+sudo apt install openssh-server   -----both
+touch new.txt
+nano new.txt   (ctr+x Y enter)
+scp new.txt vagrant@ipadd:/vagrant/home
+passward
+
+vm2
+ls
+
